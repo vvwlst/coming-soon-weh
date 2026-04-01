@@ -6,18 +6,20 @@ box-sizing:border-box;
 font-family: Arial, sans-serif;
 }
 
-/* FULL BACKGROUND */
+/* BACKGROUND */
 body{
 width:100%;
 height:100vh;
-background:#0c1b2e; /* warna sama seperti screenshot */
-display:flex;
-justify-content:center;
-align-items:center;
+background:#0c1b2e;
 }
 
-/* TEXT */
+/* TEXT POSISI (INI YANG BEDAIN) */
 .coming{
+position:absolute;
+top:65%; /* bikin agak ke bawah seperti screenshot */
+left:50%;
+transform:translate(-50%, -50%);
+
 color:#cfcfcf;
 font-size:16px;
 font-weight:500;
